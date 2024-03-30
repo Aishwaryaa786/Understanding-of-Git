@@ -1,0 +1,48 @@
+First step:
+After uploading the files in  the new repository you will have to copy the link from the code section
+
+
+cd C:\Users\aramaiah.ASUAD\Naresh_IT\MyDataScience\Git_Sessions\Session_30
+
+
+git clone https://github.com/Aishwaryaa786/EDA_DataScience.git
+
+
+Step_1: You clone a repository
+	a new folder is created
+	in the command prmt go to that specific folder by typing ==> cd <branch name>
+
+Step-2: To figure out if the branch is main branch or not we need to write this code, ==> git branch -a , this would show if the branch is 
+	main or not 
+Step-3: Here we make a different dev file by making use of a new branch of div called ==> git branch dev
+										      ==> git branch -a ,==here we will have div first and
+											then we have the mai branch 
+Step-4:Code is shifted to dev branch 
+	=here i do to the normal file and do the changes,
+	= EDA Session 2 is what I modified hence need to go to the CMD and do the changes 
+	= in CMD write ==> git status
+	= It will show the specific fle in which you have done changes 
+
+Step-5: Here we do the changes and save it so we put ==>git add .
+	after which we try to save the content and know the status ==>git status
+	the conetnt will be shwn in green colour
+	then we are in right path 
+Step-6: to show the msg once the code is updated we are supposed to write the following code
+	git commit -am<msg>
+	git commit -am "workspace updated"
+Step-7: in order to push he changes or to see the relection of the changes which we have made in the Command promt in the 
+	git hub protal we are supposed write the below command
+	git config --global user.email "rkaish19986@gmai.com
+
+
+open the EDA file 
+again modify it
+save it 
+git status 
+git add .
+git status: red
+git staus: green 
+git commit -am "workspace updated"
+git push origin dev 
+
+Step -8 : To delete the branch we are supposed to write the code this way ==> git push origin -delete dev
